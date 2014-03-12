@@ -22,9 +22,5 @@ git clone https://github.com/kimond/vimfiles.git
 ln -s vimfiles .vim
 ln -s vimfiles/.vimrc .vimrc
 
-cd vimfiles
-git submodule update --init
-
-cd bundle/jedi-vim
-
-git submodule update --init
+#Install bundle with vundle
+vim +BundleInstall +qall
