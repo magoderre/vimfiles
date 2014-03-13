@@ -27,3 +27,5 @@ git submodule update --init
 
 #Install bundle with vundle
 vim +BundleInstall +qall
+
+success 'Setup complete. Run vim and enjoy'
