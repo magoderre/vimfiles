@@ -39,6 +39,7 @@ Bundle 'bling/vim-airline'
 Bundle 'scrooloose/nerdtree'
 Bundle 'Rykka/colorv.vim'
 Bundle 'nanotech/jellybeans.vim'
+Bundle 'altercation/vim-colors-solarized.git'
 
 " Command
 Bundle 'tpope/vim-abolish'
