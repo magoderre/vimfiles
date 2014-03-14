@@ -13,6 +13,18 @@ if $TERM =~ "-256color"
    set t_Co=256
 endif
 
+" -----------------------------
+" File Locations
+" -----------------------------
+set backupdir=~/.vim/.backup
+set directory=~/.vim/.tmp
+set spellfile=~/.vim/spell/custom.en.utf-8.add
+" Persistent Undo
+if has('persistent_undo')
+  set undofile
+  set undodir=~/.vim/.undo
+endif
+
 
 " ---------------
 " UI
