@@ -47,6 +47,7 @@ Bundle 'tomtom/tcomment_vim'
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-eunuch'
+Bundle "terryma/vim-multiple-cursors"
 
 " Language Additions
 Bundle 'klen/python-mode'
