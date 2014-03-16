@@ -18,21 +18,10 @@ Bundle 'gmarik/vundle'
 " The following are examples of different formats supported.
 " Keep bundle commands between here and filetype plugin indent on.
 " scripts on GitHub repos
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'davidhalter/jedi-vim'
-Bundle 'garbas/vim-snipmate'
-Bundle 'tpope/vim-sensible'
-Bundle 'MarcWeber/vim-addon-mw-utils'
-Bundle 'tomtom/tlib_vim'
-Bundle 'honza/vim-snippets'
-Bundle 'majutsushi/tagbar'
-Bundle 'vim-scripts/simple-pairs'
-Bundle 'fholgado/minibufexpl.vim'
-Bundle 'sjl/gundo.vim'
-Bundle 'scrooloose/syntastic'
 
 " Navigation
 Bundle 'kien/ctrlp.vim'
+Bundle 'fholgado/minibufexpl.vim'
 
 " Ui
 Bundle 'bling/vim-airline'
@@ -40,6 +29,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'Rykka/colorv.vim'
 Bundle 'nanotech/jellybeans.vim'
 Bundle 'altercation/vim-colors-solarized.git'
+Bundle 'majutsushi/tagbar'
 
 " Command
 Bundle 'tpope/vim-abolish'
@@ -48,6 +38,17 @@ Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-eunuch'
 Bundle "terryma/vim-multiple-cursors"
+Bundle 'Lokaltog/vim-easymotion'
+Bundle 'tpope/vim-sensible'
+Bundle 'garbas/vim-snipmate'
+Bundle 'sjl/gundo.vim'
+Bundle 'honza/vim-snippets'
+Bundle 'MarcWeber/vim-addon-mw-utils'
+Bundle 'scrooloose/syntastic'
+
+" Lib dependencies
+Bundle 'tomtom/tlib_vim'
 
 " Language Additions
 Bundle 'klen/python-mode'
+Bundle 'davidhalter/jedi-vim'
