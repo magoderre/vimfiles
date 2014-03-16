@@ -13,6 +13,7 @@ if $TERM =~ "-256color"
    set t_Co=256
 endif
 
+
 " -----------------------------
 " File Locations
 " -----------------------------
@@ -33,7 +34,7 @@ set ruler          " Ruler on
 set number         " Line numbers on
 set nowrap         " Line wrapping off
 set laststatus=2   " Always show the statusline
-set cmdheight=1    " Make the command area two lines high
+set cmdheight=1    " Make the command area one lines high
 set encoding=utf-8
 set noshowmode     " Don't show the mode since Powerline shows it
 set title          " Set the title of the window in the terminal to the file
@@ -45,67 +46,7 @@ if exists('+ballooneval')
   " This doesn't seem to stop tooltips for Ruby files
   set noballooneval
   " 100 second delay seems to be the only way to disable the tooltips
-  set balloondelay=100000" --------------" ---------------
-" Behaviors
-" ---------------
-syntax enable
-set backup             " Turn on backups
-set autoread           " Automatically reload changes if detected
-set wildmenu           " Turn on WiLd menu
-set hidden             " Change buffer - without saving
-set history=768        " Number of things to remember in history.
-set cf                 " Enable error files & error jumping.
-set clipboard+=unnamed " Yanks go on clipboard instead.
-set autowrite          " Writes on make/shell commands
-set timeoutlen=450     " Time to wait for a command (after leader for example).
-set nofoldenable       " Disable folding entirely.
-set foldlevelstart=99  " I really don't like folds.
-set formatoptions=crql
-set iskeyword+=\$,-   " Add extra characters that are valid parts of variables
-set nostartofline      " Don't go to the start of the line after some commands
-set scrolloff=3        " Keep three lines below the last line when scrolling
-set gdefault           " this makes search/replace global by default
-set switchbuf=useopen  " Switch to an existing buffer if one exists" ---------------
-" Behaviors
-" ---------------
-syntax enable
-set backup             " Turn on backups
-set autoread           " Automatically reload changes if detected
-set wildmenu           " Turn on WiLd menu
-set hidden             " Change buffer - without saving
-set history=768        " Number of things to remember in history.
-set cf                 " Enable error files & error jumping.
-set clipboard+=unnamed " Yanks go on clipboard instead.
-set autowrite          " Writes on make/shell commands
-set timeoutlen=450     " Time to wait for a command (after leader for example).
-set nofoldenable       " Disable folding entirely.
-set foldlevelstart=99  " I really don't like folds.
-set formatoptions=crql
-set iskeyword+=\$,-   " Add extra characters that are valid parts of variables
-set nostartofline      " Don't go to the start of the line after some commands
-set scrolloff=3        " Keep three lines below the last line when scrolling
-set gdefault           " this makes search/replace global by default
-set switchbuf=useopen  " Switch to an existing buffer if one exists-
-" Behaviors
-" ---------------
-syntax enable
-set backup             " Turn on backups
-set autoread           " Automatically reload changes if detected
-set wildmenu           " Turn on WiLd menu
-set hidden             " Change buffer - without saving
-set history=768        " Number of things to remember in history.
-set cf                 " Enable error files & error jumping.
-set clipboard+=unnamed " Yanks go on clipboard instead.
-set autowrite          " Writes on make/shell commands
-set timeoutlen=450     " Time to wait for a command (after leader for example).
-set nofoldenable       " Disable folding entirely.
-set foldlevelstart=99  " I really don't like folds.
-set formatoptions=crql
-set iskeyword+=\$,-   " Add extra characters that are valid parts of variables
-set nostartofline      " Don't go to the start of the line after some commands
-set scrolloff=3        " Keep three lines below the last line when scrolling
-set gdefault           " this makes search/replace global by default
-set switchbuf=useopen  " Switch to an existing buffer if one exists
+  set balloondelay=100000"
 endif
 
 
