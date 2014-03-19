@@ -114,7 +114,7 @@ let g:ctrlp_mruf_default_order = 0
 nnoremap <leader>t :CtrlPRoot<CR>
 nnoremap <leader>b :CtrlPBuffer<CR>
 nnoremap <leader>u :CtrlPCurFile<CR>
-nnoremap <leader>m :CtrlPMRUFiles<CR>
+nnoremap <leader>mr :CtrlPMRUFiles<CR>
 
 " ---------------
 " airline
