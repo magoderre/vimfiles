@@ -328,3 +328,9 @@ nmap N <Plug>(anzu-N)
 nmap * <Plug>(anzu-star)
 nmap # <Plug>(anzu-sharp)
 let g:airline#extensions#anzu#enabled = 1
+
+" -----------
+" Python Mode
+" -----------
+let g:pymode_rope = 0
+let g:pymode_lint_on_write = 0
