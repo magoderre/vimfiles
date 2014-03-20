@@ -334,3 +334,10 @@ let g:airline#extensions#anzu#enabled = 1
 " -----------
 let g:pymode_rope = 0
 let g:pymode_lint_on_write = 0
+
+" ----------
+" MiniBufExpl
+" ----------
+map <leader>mmd :MBEbd<CR>
+map <leader>mmn :MBEbn<CR>
+map <leader>mmp :MBEbp<CR>
