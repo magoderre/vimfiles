@@ -115,6 +115,7 @@ set listchars+=precedes:<
 " ---------------
 set mousehide  " Hide mouse after chars typed
 set mouse=a    " Mouse in all modes
+set ttymouse=xterm2
 
 " Better complete options to speed it up
 set complete=.,w,b,u,U
