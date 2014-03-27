@@ -11,9 +11,9 @@ function BundleReloadAndRun(command)
   execute a:command
 endfunction
 
-nnoremap <Leader>bi :call BundleReloadAndRun("BundleInstall")<CR>
-nnoremap <Leader>bu :call BundleReloadAndRun("BundleInstall!")<CR>
-nnoremap <Leader>bc :call BundleReloadAndRun("BundleClean")<CR>
+nnoremap <Leader>vi :call BundleReloadAndRun("BundleInstall")<CR>
+nnoremap <Leader>vu :call BundleReloadAndRun("BundleInstall!")<CR>
+nnoremap <Leader>vc :call BundleReloadAndRun("BundleClean")<CR>
 
 " ---------------
 " space.vim
@@ -338,6 +338,6 @@ let g:pymode_lint_on_write = 0
 " ----------
 " MiniBufExpl
 " ----------
-map <leader>mmd :MBEbd<CR>
-map <leader>mmn :MBEbn<CR>
-map <leader>mmp :MBEbp<CR>
+map <leader>bc :MBEbd<CR>
+map <leader>bn :MBEbn<CR>
+map <leader>bp :MBEbp<CR>
