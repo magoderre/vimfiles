@@ -17,7 +17,7 @@ fi
 
 #Installing the base directory of the vim files
 cd ~/
-git clone https://github.com/kimond/vimfiles.git
+git clone https://github.com/magoderre/vimfiles.git
 
 ln -s vimfiles .vim
 ln -s vimfiles/.vimrc .vimrc
